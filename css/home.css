@@ -1,0 +1,139 @@
+.content__carousel-item {
+    width: 100%;
+    height: 500px;
+}
+
+/* home-about */
+
+/* .home__content {
+
+} */
+
+.home__content-group {
+    margin-top: 50px;
+}
+
+/* .home__content-group-about {
+    
+} */
+
+
+
+.home__content-group-about-heading {
+    font-size: 3rem;
+    background-color: #85d1e587;
+    padding: 5px 10px 5px 20px;
+    color: var(--primary-color);
+    border-radius: 5px;
+    font-weight: 600;
+    display: flex;
+}
+
+.home__content-group-about-heading-border {
+    width: 6px;
+    background-color: var(--primary-color);
+    border-radius: 3px;
+}
+
+.home__content-group-about-heading-text {
+    margin-left: 10px;
+}
+
+.home__content-group-about-text {
+    font-size: 1.8rem;
+    margin-top: 15px;
+    text-align: justify;
+    font-weight: 480;
+}
+
+/* .home__content-group-img {
+
+} */
+
+.home__content-group-img-item {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* home- dental health */
+
+.home__content-group-dental {
+    margin: 20px 15px 0;
+}
+
+/* .home__content-group-dental-img {
+
+} */
+
+.home__content-group-dental-img-item {
+    width: 100%;
+}
+
+/* .home__content-group-dental-profess {
+    
+} */
+
+.home__content-group-dental-profess-heading {
+    font-size: 1.8rem;
+    font-weight: 650;
+}
+
+.home__content-group-dental-profess-text {
+    font-size: 1.5rem;
+}
+
+.home__content-group-dental-profess-seeMore {
+    font-size: 1.4rem;
+    text-align: right;
+    position: relative;
+}
+
+.home__content-group-dental-profess-seeMore-link {
+    text-decoration: none;
+}
+
+.home__content-group-dental-profess-seeMore-icon {
+    padding-left: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-40%);
+}
+
+/* home-research */
+
+.home__content-group-research-img {
+    margin-top: 20px;
+}
+
+/* home-products */
+.home__content-group-product {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+} 
+
+::-webkit-scrollbar {
+    height: 5px;
+} 
+
+::-webkit-scrollbar-thumb {
+    background-color: lightgrey;
+    border-radius: 2px;
+} 
+
+.home__content-group-product-item {
+    margin: 20px 20px 0;
+}
+
+.home__content-group-product-item-img {
+    /* width: 100%; */
+    height: 150px;
+} 
+
+/* .home__content-group-product-prev {
+    color: red;
+}
+
+.home__content-group-product-next {
+    color: red;
+}

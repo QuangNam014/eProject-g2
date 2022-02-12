@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smiles 32</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
+
+
+    <link rel="stylesheet" href="../owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../owlcarousel/assets/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../owlcarousel/owl.carousel.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- <style>
+        #content__index {
+            height: 500px;
+            width: 100%;
+            border: 2px solid red;
+            background-color: green;
+        }
+    </style> -->
+
+</head>
+
+
+<body ng-app="myApp">
+    <div id="main">
+        <header class="header">
+            <!-- Header-top -->
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__top-login-Newmember">
+                        <a href="" class="header__top-login">
+                            <i class="header__top-login-icon fas fa-angle-right"></i>
+                            <div class="header__top-login-text">Login</div>
+                        </a>
+                        <a href="" class="header__top-Newmember">
+                            <i class="header__top-Newmember-icon fas fa-angle-right"></i>
+                            <div class="header__top-Newmember-text">New Member</div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Header-navbar -->
+            <div class="header__navbar">
+                <div class="container">
+                    <ul class="nav nav-pills header__navbar-list">
+                        <li class="nav-item dropdown header__navbar-item">
+                            <a class="nav-link dropdown-toggle header__navbar-link" data-bs-toggle="dropdown"
+                                href="#">Dental health</a>
+                            <ul class="dropdown-menu header__subnav-list">
+                                <li class="header__subnav-item"><a class="dropdown-item header__subnav-link"
+                                        href="#">Professional education </a></li>
+                                <li class="header__subnav-item"><a class="dropdown-item header__subnav-link"
+                                        href="#">Patient education</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item header__navbar-item">
+                            <a class="nav-link header__navbar-link" href="#">Research</a>
+                        </li>
+                        <li class="nav-item header__navbar-item">
+                            <a class="nav-link header__navbar-link" href="#">Products</a>
+                        </li>
+                        <li class="header__navbar-item-img" style="padding: 0;">
+                            <a class="nav-link header__navbar-link" href="#/">
+                                <img class="header__navbar-img" src="/images/remove_bg.png" alt="">
+                            </a>
+                        </li>
+                        <li class="nav-item header__navbar-item">
+                            <a class="nav-link header__navbar-link" href="#">Contact us</a>
+                        </li>
+                        <li class="nav-item header__navbar-item">
+                            <a class="nav-link header__navbar-link" href="#">Dental clinic</a>
+                        </li>
+                        <li class="nav-item header__navbar-item">
+                            <a class="nav-link header__navbar-link" href="#">FQA</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div ng-view></div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="footer__content-logo-social">
+                            <div class="footer__content-logo">
+                                <a href="" class="footer__content-logo-link">
+                                    <img class="footer__content-logo-img" src="/images/remove_bg.png" alt="">
+                                </a>
+                            </div>
+                            <div class="footer__content-social">
+                                <a href="" class="footer__content-social-link">
+                                    <i
+                                        class="footer__content-social-icon footer__content-social-icon-facebook fab fa-facebook"></i>
+                                </a>
+                                <a href="" class="footer__content-social-link">
+                                    <i class="footer__content-social-icon fab fa-instagram"></i>
+                                </a>
+                                <a href="" class="footer__content-social-link">
+                                    <i
+                                        class="footer__content-social-icon footer__content-social-icon-youtube fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer__content-contact-open">
+                            <div class="footer__content-contact">
+                                <div class="footer__content-contact-address">590 CMT8, 11 Ward. 3 Dist, HCM</div>
+                                <div class="footer__content-contact-phone"><b>Phone</b>: 098-157-98-20</div>
+                                <div class="footer__content-contact-fax"><b>Fax</b>: 098-157-98-21</div>
+                            </div>
+                            <div class="footer__content-open">
+                                <div class="footer__content-open-text">
+                                    <div><b>Opening hour</b>:</div>
+                                    <div>From Mon to Sat: 09AM - 07PM</div>
+                                    <div>Sunday/Public holiday: closed</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="footer__content-map">
+                            <iframe class="footer__content-map-link"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d449.25415117701675!2d106.66606455899372!3d10.78673255371197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed2392c44df%3A0xd2ecb62e0d050fe9!2zRlBUIEFwdGVjaCBIQ00gLSBI4buHIFRo4buRbmcgxJDDoG8gVOG6oW8gTOG6rXAgVHLDrG5oIFZpw6puIFF14buRYyBU4bq_IChTaW5jZSAxOTk5KQ!5e0!3m2!1svi!2s!4v1644483244620!5m2!1svi!2s"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="/js/app.js"></script>
+    <script>
+        $(document).ready(function () {
+            console.log("khoi tao lai")
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 5
+                    }
+                }
+            });
+        });
+
+        var carousel = $(".owl-carousel");
+        console.log(carousel)
+    </script>
+
+</body>
+
+</html>
