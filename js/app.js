@@ -54,7 +54,9 @@ app.run(function ($rootScope, $http) {
   $http.get("../data.json")
     .then(function (response) {
       $rootScope.products = response.data.product
+      $rootScope.displayItems = response.data.research
     });
+    
 })
 
 app.controller("listCTR", function ($scope) { })
@@ -63,9 +65,9 @@ app.controller("listCTR", function ($scope) { })
 // link img home page
 function onGoToPage(namePage) {
   if (namePage === "") {
-    window.location = "http://127.0.0.1:5500/html/index.html" + namePage;
+    window.location = "http://127.0.0.1:5501/html/index.html" + namePage;
   }
-  window.location = "http://127.0.0.1:5500/html/index.html#!" + namePage;
+  window.location = "http://127.0.0.1:5501/html/index.html#!" + namePage;
 }
 
 
@@ -211,12 +213,12 @@ function handleLoginPage() {
   }
 
 
-  app.run(function ($rootScope, $http) {
-    $http.get("../data.json")
-      .then(function (response) {
-        $rootScope.totalItems = response.data.research
-      });
-  })
+  // app.run(function ($rootScope, $http) {
+  //   $http.get("../data.json")
+  //     .then(function (response) {
+  //       $rootScope.displayItems = response.data.research
+  //     });
+  // })
 
   app
     .controller("PagerController", function ($scope) { })
