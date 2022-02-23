@@ -1,0 +1,29 @@
+<div class="container-courses" ng-controller="PagerController">
+    <!-- <div class="container-card">
+        <div class="card card-items" style="width: 32rem;" ng-repeat="data in displayItems">
+            <img src="/images/1.jpg" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">{{data.title}}</h5>
+                <p class="card-text">{{data.description}}</p>
+                <a href="#" class="btn btn-primary">See more</a>
+            </div>
+        </div>
+    </div> -->
+
+    <h2>COURSES</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4 container-card">
+        <div class="col" ng-repeat="data in displayItems">
+            <div class="card card-items">
+                <img src="/images/1.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">{{data.title}}</h5>
+                    <p class="card-text">{{data.description}}</p>
+                    <a href="#" class="btn btn-primary">See more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <paging-control paging-size="pagingSize" noofitem="itemPerPage" total-items="totalItems" display-items="displayItems">
+    </paging-control>
+</div>

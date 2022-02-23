@@ -1,0 +1,38 @@
+.pager {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+  }
+  .pager>li {
+    display: inline;
+  }
+  .pager>li>a {
+      position: relative;
+      float: left;
+      padding: 6px 12px;
+      margin-left: -1px;
+      line-height: 1.42857143;
+      color: #000;
+      font-weight: 500;
+      text-decoration: none;
+      background-color: rgb(13, 110, 253);
+      border: 1px solid #000;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  .pager>.active>a {
+      z-index: 2;
+      color: #000;
+      cursor: default;
+      background-color: #85d1e587;
+      border-color: #000;
+  }
+  .disabled {
+    background-color: #000 !important;
+  }
+  .disabled>a {
+    cursor: default !important;
+    color: #B7B7B7 !important;
+  }

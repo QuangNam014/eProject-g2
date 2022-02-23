@@ -1,0 +1,53 @@
+.grid-container {
+    margin-top: 120px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap: 10px;
+}
+.introduction {
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+#menu ul {
+  background: #85d1e587;
+  list-style-type: none;
+  text-align: left;
+  border-radius: 12px;
+}
+#menu li {
+    line-height: 40px;
+    border-top: 1px solid #e8e8e8;
+    padding: 0 1em;
+    cursor: pointer;
+}
+#menu li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+#menu li:hover {
+    background: #0d6efd;
+    border-radius: 4px;
+}
+
+.container-courses > h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.img-card > img {
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+.img-card1 > img {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}

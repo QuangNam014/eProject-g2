@@ -1,0 +1,288 @@
+/* MODAL */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+.modal_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal_body {
+    margin: auto;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.register_form {
+    display: none;
+}
+
+.login_form {
+    display: none;
+}
+
+.auth_form {
+    width: 500px;
+}
+
+.auth_form-modal {
+    padding: 0 32px;
+}
+
+.auth_form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 14px;
+    margin-top: 12px;
+}
+
+.auth_form-heading {
+    font-size: 20px;
+    font-weight: 550;
+    color: rgb(29, 27, 27);
+    margin: 14px 0;
+    padding: 0 10px;  
+    cursor: pointer;
+}
+
+.auth_form-error-login, 
+.auth_form-error-register {
+    color: red;
+    font-size: 16px;
+    text-align: center;
+    display: none;
+}
+
+.active_btn {
+    color: var(--primary-color);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.auth_form-input {
+    width: 100%;
+    height: 40px;
+    font-size: 17px;
+    padding: 0 12px;
+    margin-top: 15px;
+    border: 1px solid #9b9898;
+    border-radius: 3px;
+    outline: none;
+    line-height: 40px;
+}
+
+.auth_form-policy {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; 
+}
+
+.auth_form-policy-checkbox {
+    margin-right: 5px;
+    padding-top: 7px;
+}
+
+.auth_form-policy-text {
+    text-align: center;
+    line-height: 1.4;
+    font-size: 15px;
+}
+
+.auth_form-policy-text-link {
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--primary-color);
+}
+
+.auth_form-controls {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn__login {
+    padding: 0;
+    font-weight: 450;
+    height: 40px;
+}
+
+.auth_form-social {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+    padding: 20px 36px;
+    background-color: #dfdddd;
+}
+
+.btn-with-icon {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 200px;
+    margin: 0 8px;
+    font-size: 10px;
+}
+
+.auth_form-social-facebook {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.auth_form-social-icon {
+    font-size: 16px;
+    margin: 0 8px;
+}
+
+.auth_form-social-text {
+    margin: 0 6px;
+}
+
+.auth_form-help {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.auth_form-help-link:nth-child(1) {
+    color: var(--primary-color);
+    padding-right: 20px;
+    font-size: 1.6rem;
+}
+
+.auth_form-help-link:nth-child(2) {
+    color: #7d7b7a;
+    padding-left: 20px;
+    font-size: 1.6rem;
+}
+
+.auth_form-help-link {
+    text-decoration: none;
+}
+
+.auth_form-help-border {
+    border-right: 2px solid #c8c4c3;
+}
+
+.content {
+    margin-top: 5px;
+}
+
+.slideshow_content {
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.mySlide {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -40px;
+    padding: 16px;
+    color: #fff;
+    font-size: 38px;
+    font-weight: bold;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    background-color:#d19e9e;
+    display: inline-block;
+    margin: 0 2px;
+    border-radius:50%;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes headerNotyfiGrowth {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.content_text {
+    display: flex;
+    flex-direction:column;
+}
+
+.content_text > h1 {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.content_video {
+    text-align: center;
+}
+
+.content_video_controls {
+    align-self: center;
+    width: 640px;
+    height: 360px;   
+}
+
+.content_text-body p {
+    font-size: 20px;
+    line-height: 1;
+    width: 640px;
+    text-align: justify;
+    align-items: center;
+    margin: 20px auto 25px;
+}

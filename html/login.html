@@ -1,0 +1,97 @@
+<div class="modal">
+    <div class="modal_overlay" onclick="overLay()"></div>
+    <div class="modal_body">
+        <!-- register form -->
+        <div class="register_form">
+            <div class="auth_form">
+                <div class="auth_form-modal">
+                    <div class="auth_form-header">
+                        <div class="auth_form-heading active_btn">Register</div>
+                        <div class="auth_form-heading">Login</div>
+                    </div>
+                    <div class="auth_form-form">
+                        <div class="auth_form-group">
+                            <input type="email" name="emailRg" class="auth_form-input" id="email"
+                                placeholder="Nhập Email">
+                        </div>
+                        <div class="auth_form-group">
+                            <input type="password" name="passwordRg" class="auth_form-input" id="password"
+                                placeholder="Nhập mật khẩu">
+                        </div>
+                        <div class="auth_form-group">
+                            <input type="password" name="passwordRg1" class="auth_form-input" id="password"
+                                placeholder="Nhập lại mật khẩu">
+                        </div>
+                        <p class="auth_form-error-register">Mật khẩu không trùng khớp, vui lòng nhập lại mật khẩu
+                        </p>
+                    </div>
+                    <div class="auth_form-policy">
+                        <div class="auth_form-policy-checkbox">
+                            <input type="checkbox" name="checkbox" id="checkbox" checked>
+                        </div>
+                        <p class="auth_form-policy-text">Bằng việc đăng kí, bạn đã đồng ý với CGV về
+                            <a href="" class="auth_form-policy-text-link">Điều khoản dịch vụ</a> &
+                            <a href="" class="auth_form-policy-text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+                    <div class="auth_form-controls">
+                        <button class="btn  auth_form-controls-back">Trở lại</button>
+                        <button class="btn btn-primary auth_form-controls-register">Đăng ký</button>
+                    </div>
+                </div>
+                <div class="auth_form-social">
+                    <a href="#" class="btn btn-with-icon auth_form-social-facebook">
+                        <i class="auth_form-social-icon fab fa-facebook"></i>
+                        <span class="auth_form-social-text">Kết nối với Facebook</span>
+                    </a>
+                    <a href="#" class="btn btn-with-icon auth_form-social-google">
+                        <i class="auth_form-social-icon fab fa-google"></i>
+                        <span class="auth_form-social-text">Kết nối với Google</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- login form -->
+        <div class="login_form">
+            <div class="auth_form">
+                <div class="auth_form-modal">
+                    <div class="auth_form-header">
+                        <div class="auth_form-heading">Register</div>
+                        <div class="auth_form-heading active_btn">Login</div>
+                    </div>
+                    <p class="auth_form-error-login">Bạn đã nhập sai email hoặc password, vui lòng nhập lại</p>
+                    <div class="auth_form-form">
+                        <div class="auth_form-group">
+                            <input type="email" name="emailLg" class="auth_form-input" id="email"
+                                placeholder="Nhập Email">
+                        </div>
+                        <div class="auth_form-group">
+                            <input type="password" name="passwordLg" class="auth_form-input" id="password"
+                                placeholder="Nhập mật khẩu">
+                        </div>
+                    </div>
+                    <div class="auth_form-help">
+                        <a href="" class="auth_form-help-link auth_form-help-border">Quên mật khẩu</a>
+                        <a href="" class="auth_form-help-link">Cần trợ giúp?</a>
+                    </div>
+                    <div class="auth_form-controls">
+                        <button class="btn  auth_form-controls-back">Trở lại</button>
+                        <button class="btn btn-primary auth_form-controls-login" onclick="overLay()">Đăng
+                            Nhập</button>
+                    </div>
+                </div>
+                <div class="auth_form-social">
+                    <a href="#" class="btn btn-with-icon auth_form-social-facebook">
+                        <i class="auth_form-social-icon fab fa-facebook"></i>
+                        <span class="auth_form-social-text">Kết nối với Facebook</span>
+                    </a>
+                    <a href="#" class="btn btn-with-icon auth_form-social-google">
+                        <i class="auth_form-social-icon fab fa-google"></i>
+                        <span class="auth_form-social-text">Kết nối với Google</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

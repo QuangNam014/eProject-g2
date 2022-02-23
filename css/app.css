@@ -39,7 +39,6 @@
     color: #d9d9d9;
     font-size: 1.4rem;
     margin-left: 8px;
-    
 }
 
 .header__top-Newmember {
@@ -74,8 +73,6 @@
     
 }
 
-
-
 .header__navbar-link {
     padding: 0;
     font-size: 1.8rem;
@@ -92,10 +89,10 @@
     padding: 0;
     border-radius: 4px;
     overflow: hidden;
+    margin-left: -10px !important;
 }
 
 .header__subnav-item {
-    
     border-bottom: 1px solid #aba6a6;
 }
 
@@ -126,16 +123,11 @@
 .footer__content-logo-social {
     margin: 15px 10px;
     display: flex;
-    
 }
 
 .footer__content-logo {
     margin-right: 15px;
 }
-
-/* .footer__content-logo-link {
-
-} */
 
 .footer__content-logo-img {
     height: 60px;
@@ -195,6 +187,7 @@ div b {
 
 .footer__content-map {
     height: 300px;
+    margin-top: 30px;
 }
 
 .footer__content-map-link {

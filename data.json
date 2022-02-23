@@ -1,0 +1,114 @@
+{
+    "product": [
+        {
+            "id": "P01",
+            "url": "images/1.jpg"
+        },
+        {
+            "id": "P02",
+            "url": "images/1.jpg"
+        },
+        {
+            "id": "P03",
+            "url": "images/1.jpg"
+        },
+        {
+            "id": "P04",
+            "url": "images/1.jpg"
+        },
+        {
+            "id": "P05",
+            "url": "images/1.jpg"
+        },
+        {
+            "id": "P06",
+            "url": "images/1.jpg"
+        },
+        {
+            "id": "P07",
+            "url": "images/1.jpg"
+        },
+        {
+            "id": "P08",
+            "url": "images/1.jpg"
+        },
+        {
+            "id": "P09",
+            "url": "images/1.jpg"
+        },
+        {
+            "id": "P010",
+            "url": "images/1.jpg"
+        },
+        {
+            "id": "P011",
+            "url": "images/1.jpg"
+        },
+        {
+            "id": "P012",
+            "url": "images/1.jpg"
+        },
+        {
+            "id": "P013",
+            "url": "images/1.jpg"
+        },
+        {
+            "id": "P014",
+            "url": "images/1.jpg"
+        },
+        {
+            "id": "P015",
+            "url": "images/1.jpg"
+        }
+    ],
+    "research": [
+        {
+            "title": 1,
+            "description": "Nguyen Van A"
+        },
+        {
+            "title": 2,
+            "description": "Nguyen Van B"
+        },
+        {
+            "title": 3,
+            "description": "Nguyen Van C"
+        },
+        {
+            "title": 4,
+            "description": "Nguyen Van D"
+        },
+        {
+            "title": 5,
+            "description": "Nguyen Van E"
+        },
+        {
+            "title": 6,
+            "description": "Nguyen Van F"
+        },
+        {
+            "title": 7,
+            "description": "Nguyen Van G"
+        },
+        {
+            "title": 8,
+            "description": "Nguyen Van H"
+        },
+        {
+            "title": 9,
+            "description": "Nguyen Van X"
+        },
+        {
+            "title": 10,
+            "description": "Nguyen Van Y"
+        },
+        {
+            "title": 11,
+            "description": "Nguyen Van Z"
+        },
+        {
+            "title": 12,
+            "description": "Nguyen Van M"
+        }
+    ]
+}

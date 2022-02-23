@@ -1,0 +1,127 @@
+/* title */
+.contact__content {
+    margin-top: 30px;
+}
+
+.contact__heading {
+    font-size: 3.3rem;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--primary-color);
+}
+
+.contact__sub-heading {
+    font-size: 4.5rem;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    color: #454545;
+}
+
+/* Infor */
+.contact__infor {
+    margin: 10px 20px;
+}
+
+.contact__infor-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contact__infor-icon {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.contact__infor-icon-market {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.contact__infor-text {
+    position: relative;
+    width: calc(100% - 50px);
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.contact__infor-text h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.contact__infor-text p {
+    margin: 0;
+    font-size: 16px;
+    color: #454545;
+    font-weight: 500;
+}
+
+.contact__infor-social a {
+    margin-right: 10px;
+    font-size: 18px;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.contact__infor-social a:hover i {
+    color: #bfbbbb;
+}
+
+.contact__infor-social a i {
+    font-weight: 700;
+}
+
+/* Form */
+.contact__content-form {
+    margin: 30px 15px 0px;
+}
+
+.contact__form {
+    padding: 5px 10px;
+}
+
+.form-control {
+    padding: 5px 10px;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    font-size: 1.8rem;
+}
+
+.form-control:focus {
+    background-color: rgba(190, 231, 241, 0.5);
+}
+
+.contact__form-btn {
+    text-align: center;
+}
+
+.btn__contact {
+    padding: 12px 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn:hover {
+    color: var(--primary-color);
+    background-color: #fff;
+}
+
+.contact__content-form-img {
+    width: 100%;
+    border-radius: 5px;
+}
