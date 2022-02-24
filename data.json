@@ -2,113 +2,125 @@
     "product": [
         {
             "id": "P01",
-            "url": "images/product1.png"
+            "url": "../images/product1.png"
         },
         {
             "id": "P02",
-            "url": "images/product2.jpg"
+            "url": "../images/product2.jpg"
         },
         {
             "id": "P03",
-            "url": "images/product3.jpg"
+            "url": "../images/product3.jpg"
         },
         {
             "id": "P04",
-            "url": "images/product4.jpg"
+            "url": "../images/product4.jpg"
         },
         {
             "id": "P05",
-            "url": "images/product5.jpg"
+            "url": "../images/product5.jpg"
         },
         {
             "id": "P06",
-            "url": "images/product6.jpg"
+            "url": "../images/product6.jpg"
         },
         {
             "id": "P07",
-            "url": "images/product7.png"
+            "url": "../images/product7.png"
         },
         {
             "id": "P08",
-            "url": "images/product8.jpg"
+            "url": "../images/product8.jpg"
         },
         {
             "id": "P09",
-            "url": "images/product9.jpg"
+            "url": "../images/product9.jpg"
         },
         {
             "id": "P010",
-            "url": "images/product10.jpg"
+            "url": "../images/product10.jpg"
         },
         {
             "id": "P011",
-            "url": "images/product11.jpg"
+            "url": "../images/product11.jpg"
         },
         {
             "id": "P012",
-            "url": "images/product12.jpg"
+            "url": "../images/product12.jpg"
         },
         {
             "id": "P013",
-            "url": "images/product13.png"
+            "url": "../images/product13.png"
         },
         {
             "id": "P014",
-            "url": "images/product14.jpg"
+            "url": "../images/product14.jpg"
         },
         {
             "id": "P015",
-            "url": "images/product15.jpg"
+            "url": "../images/product15.jpg"
         }
     ],
     "research": [
         {
-            "title": 1,
-            "description": "Nguyen Van A"
+            "title": "Patients’ perceptions on temporomandibular disorder treatment with hydrostatic oral splints - a pilot study",
+            "description": "Temporomandibular disorders (TMDs) imply a wide range of clinical patterns, including temporomandibular joint dysfunction, masticatory muscle disorders and disorders of associated structures [1, 2]. The most common symptoms range from joint and muscle pain, headache, joint noise, limited mouth opening, facial pain to cervical-spine disorders [3, 4]. Even otological symptoms...",
+            "image": "../images/research1.png"
         },
         {
-            "title": 2,
-            "description": "Nguyen Van B"
+            "title": "Efficacy of continuous apical negative ultrasonic irrigation in penetration of simulated lateral canals in extracted teeth",
+            "description": "Apical periodontitis is a biofilm-related infection, and one of the primary goals of treatment is to kill or remove microbes from the root canal system1. However, complete elimination is difficult in anatomically complex areas of the root canal system, which are often inaccessible to instruments2. Therefore, instrumentation must be combined with adequate irrigation to complete...",
+            "image": "../images/research2.jpg"
         },
         {
-            "title": 3,
-            "description": "Nguyen Van C"
+            "title": "Effect of the toothbrush tuft arrangement and bristle stiffness on the abrasive dentin wear",
+            "description": "Toothbrushes belong to daily routine as the most widely used tool for oral hygiene1. During the present and past centuries, toothbrushes have undergone remarkable changes in their design, especially at the toothbrush head (e.g., number of tufts, brushing plane, bristle stiffness and diameter)2. Many of these design changes perused one goal: to achieve better cleaning effect...",
+            "image": "../images/research3.jpg"
         },
         {
-            "title": 4,
-            "description": "Nguyen Van D"
+            "title": "Internal morphology of 101 mandibular canines of a Swiss-German population by means of micro-CT: An ex vivo study",
+            "description": "Mühlreiter1 first described the tooth morphology by means of sectioning in axial planes. While investigative methods have considerably improved since, the interest in and importance of the root canal system morphology has not diminished. It is essential for operators to be familiar with the root canal system morphology and to be able to recognize without delay any possible variation of it in order to minimize endodontic treatment failure.....",
+            "image": "../images/research4.jpg"
         },
         {
-            "title": 5,
-            "description": "Nguyen Van E"
+            "title": "The C-shaped root canal systems in mandibular second molars in an Emirati population",
+            "description": "Several studies have reported that incomplete debridement of the root canal system might lead to endodontic therapy failure, due to potential presence of necrotic pulp remnants and microorganisms1, 2. Therefore, recognizing, locating and treating all root canal anatomy is essential to ensure successful outcome of endodontic therapy. Root and canal morphology of mandibular second molar exhibits complex anatomical variations such as C-shaped configuraiton...",
+            "image": "../images/research5.jpg"
         },
         {
-            "title": 6,
-            "description": "Nguyen Van F"
+            "title": "Automatic detection of mesiodens on panoramic radiographs using artificial intelligence",
+            "description": "Mesiodens refers to a supernumerary tooth located in the anterior maxilla, and it is the most common type of supernumerary tooth1. Impacted mesiodens has various effects on the succeeding teeth or adjacent permanent teeth and it causes delayed eruption, rotation, displacement, crowding, diastema, and root resorption2. Odontogenic cysts involving mesiodens may also occur, interfering with implant placement and orthodontic tooth...",
+            "image": "../images/research6.jpg"
         },
         {
-            "title": 7,
-            "description": "Nguyen Van G"
+            "title": "Susceptibility artifacts induced by crowns of different materials with prepared teeth and titanium implants in magnetic resonance imaging",
+            "description": "This study aimed to investigate the artifacts induced by crowns composed of different materials with prepared teeth and titanium implants. Resin, metal-ceramic, ceramic and zirconia crowns were fabricated and placed onto the prepared teeth on a human cadaver head or titanium implants with prosthesis abutments on a dry human mandible. The samples were scanned on a 1.5 T MRI apparatus, and artifact areas were defined as the signal...",
+            "image": "../images/research7.jpg"
         },
         {
-            "title": 8,
-            "description": "Nguyen Van H"
+            "title": "Automated segmentation of articular disc of the temporomandibular joint on magnetic resonance images using deep learning",
+            "description": "Temporomandibular disorders are typically accompanied by a number of clinical manifestations that involve pain and dysfunction of the masticatory muscles and temporomandibular joint. The most important subgroup of articular abnormalities in patients with temporomandibular disorders includes patients with different forms of articular disc displacement and deformation. Here, we propose a fully automated articular disc detection and...",
+            "image": "../images/research8.jpg"
         },
         {
-            "title": 9,
-            "description": "Nguyen Van X"
+            "title": "The influence of two different cements on remaining cement excess in cement-retained implant-supported zirconia crowns. An in vitro study",
+            "description": "Dental implants have become a widely used treatment for the rehabilitation of partially and completely edentulous patients.1,2 Implant-supported dental restorations can be retained through screw- or cement-retention.3 A considerable disadvantage with cement retention is the possible biological complications.3,4 Remains of cement excess can irritate surrounding peri-implant tissue in a manner similar to subgingival tartar... ",
+            "image": "../images/research9.jpg"
         },
         {
-            "title": 10,
-            "description": "Nguyen Van Y"
+            "title": "Evaluation of multi-task learning in deep learning-based positioning classification of mandibular third molars",
+            "description": "The mandibular third molar is one of the most commonly impacted teeth. Treatment requires tooth extraction surgery, and extraction of the third molar is one of the most common surgical procedures worldwide. Since mandibular third molars cause various complications, surgical treatment is primarily performed to treat the symptoms associated with impaction1,2 and prevent conditions that...",
+            "image": "../images/research10.jpg"
         },
         {
-            "title": 11,
-            "description": "Nguyen Van Z"
+            "title": "Trueness of digital implant impressions based on implant angulation and scan body materials",
+            "description": "Intraoral scanners are used to obtain digital impressions since the introduction of computer-aided design and manufacturing systems for dental restorations1. Recently, digital implant impressions obtained using intraoral scanners have been widely used for the fabrication of dental implant restorations1,2. Compared to conventional implant impressions,...",
+            "image": "../images/research11.jpg"
         },
         {
-            "title": 12,
-            "description": "Nguyen Van M"
+            "title": "Evaluation of transverse maxillary growth on cone-beam computed tomography images",
+            "description": "For many decades, orthodontists have used two-dimensional radiographic imaging and cephalometry to assess the relationships of the maxillofacial skeleton and the dentition in their patients, including evaluation of growth and development, diagnosis, treatment planning, and assessment of treatment progress and outcomes. However, the limitations of lateral radiography...",
+            "image": "../images/research12.jpg"
         }
     ]
 }

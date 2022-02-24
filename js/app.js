@@ -7,6 +7,8 @@ app.config(function ($routeProvider) {
     .when("/login", { templateUrl: "login.html" })
     .when("/professional", { templateUrl: "professional.html" })
     .when("/research", { templateUrl: "research.html" })
+    .when("/clinic", { templateUrl: "dental_clinic.html" })
+    .when("/faq", { templateUrl: "faq.html" })
 })
 
 
@@ -221,7 +223,7 @@ function handleLoginPage() {
   })
 
   app
-    .controller("PagerController", function ($scope) { })
+    .controller("PageController", function ($scope) { })
     .directive("pagingControl", [
       function () {
         return {
@@ -242,4 +244,30 @@ function handleLoginPage() {
 app.controller("professional", ["$scope", function ($scope) {
   $scope.myView = "overview";
 }
+]);
+
+
+// anh trung
+app.controller("faq",function(){
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        panel.style.display = "block";
+      }
+    });
+  }
+})
+
+app.controller("clinic", [
+  "$scope",
+  function ($scope) {
+    $scope.viewClinic = "default";
+  },
 ]);

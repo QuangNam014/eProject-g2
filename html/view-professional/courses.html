@@ -1,4 +1,4 @@
-<div class="container-courses" ng-controller="PagerController">
+<div class="container-courses" ng-controller="PageController">
     <!-- <div class="container-card">
         <div class="card card-items" style="width: 32rem;" ng-repeat="data in displayItems">
             <img src="/images/1.jpg" class="card-img-top">
@@ -14,7 +14,7 @@
     <div class="row row-cols-1 row-cols-md-3 g-4 container-card">
         <div class="col" ng-repeat="data in displayItems">
             <div class="card card-items">
-                <img src="/images/1.jpg" class="card-img-top">
+                <img src="{{data.image}}" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">{{data.title}}</h5>
                     <p class="card-text">{{data.description}}</p>

@@ -1,14 +1,13 @@
 <div ng-controller="professional" class="container-professional grid-container">
     <div id="menu" class="item1">
         <ul class="list-group">
-            <li class="list-group-item active" aria-current="true">Professional education</li>
-            <li> <a ng-class="{active: myView == 'overview}"ng-click="myView='overview'">Overview</a></li>
-            <li> <a ng-class="{active: myView == 'courses'}"ng-click="myView='courses'">Courses</a></li>
-            <li> <a ng-class="{active: myView == 'dp-resources'}"ng-click="myView='dp-resources'">Dental professional resources</a></li>
-            <li> <a ng-class="{active: myView == 'f-resources'}" ng-click="myView='f-resources'">Faculty resources</a></li>
-            <li> <a ng-class="{active: myView == 's-resources'}" ng-click="myView='s-resources'">Student resources</a></li>
-            <li> <a ng-class="{active: myView == 'case-student'}" ng-click="myView='case-student'">Case student</a></li>
-            <li> <a ng-class="{active: myView == 'case-challenges'}" ng-click="myView='case-challenges'">Case challenges</a></li>
+            <li class="list-group-item active" aria-current="true">Dental health</li>
+            <li> <a ng-click="myView='overview'">Overview</a></li>
+            <li> <a ng-click="myView='courses'">Courses</a></li>
+            <li> <a ng-click="myView='f-resources'">Faculty resources</a></li>
+            <li> <a ng-click="myView='s-resources'">Student resources</a></li>
+            <li> <a ng-click="myView='case-student'">Case studies</a></li>
+            <li> <a ng-click="myView='case-challenges'">Case challenges</a></li>
         </ul>
     </div>
     <div ng-switch="myView">
@@ -17,9 +16,6 @@
         </div>
         <div ng-switch-when="courses">
             <div ng-include="'./view-professional/courses.html'"></div>
-        </div>
-        <div ng-switch-when="dp-resources">
-            <div ng-include="'./view-professional/dp-resources.html'"></div>
         </div>
         <div ng-switch-when="f-resources">
             <div ng-include="'./view-professional/f-resources.html'"></div>
