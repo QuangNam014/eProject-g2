@@ -40,15 +40,15 @@ function send() {
 
 
 // carousel slick
-window.onload = function () {
-  $('.autoplay').slick({
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 1500,
-    pauseOnHover: false,
-  });
-};
+// window.onload = function () {
+//   $('.autoplay').slick({
+//     slidesToShow: 5,
+//     slidesToScroll: 1,
+//     autoplay: true,
+//     autoplaySpeed: 1500,
+//     pauseOnHover: false,
+//   });
+// };
 
 app.run(function ($rootScope, $http) {
   $http.get("../data.json")
@@ -56,7 +56,7 @@ app.run(function ($rootScope, $http) {
       $rootScope.products = response.data.product
       $rootScope.displayItems = response.data.research
     });
-    
+
 })
 
 app.controller("listCTR", function ($scope) { })
@@ -213,12 +213,12 @@ function handleLoginPage() {
   }
 
 
-  // app.run(function ($rootScope, $http) {
-  //   $http.get("../data.json")
-  //     .then(function (response) {
-  //       $rootScope.displayItems = response.data.research
-  //     });
-  // })
+  app.run(function ($rootScope, $http) {
+    $http.get("../data.json")
+      .then(function (response) {
+        $rootScope.totalItems = response.data.research
+      });
+  })
 
   app
     .controller("PagerController", function ($scope) { })
@@ -237,7 +237,7 @@ function handleLoginPage() {
         };
       },
     ]);
-});
+})();
 
 app.controller("professional", ["$scope", function ($scope) {
   $scope.myView = "overview";
