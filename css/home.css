@@ -3,6 +3,11 @@
     height: 500px;
 }
 
+.content__carousel-item-img {
+    height: 100%;
+    width: 100%;
+}
+
 /* home-about */
 .home__content-group {
     margin-top: 50px;
@@ -84,7 +89,7 @@
 
 .home__content-group-dental-research-text {
     font-size: 1.7rem;
-    min-height: 400px;
+    min-height: 450px;
 }
 
 /* home-products */
