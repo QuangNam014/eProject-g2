@@ -40,15 +40,15 @@ function send() {
 
 
 // carousel slick
-// window.onload = function () {
-//   $('.autoplay').slick({
-//     slidesToShow: 5,
-//     slidesToScroll: 1,
-//     autoplay: true,
-//     autoplaySpeed: 1500,
-//     pauseOnHover: false,
-//   });
-// };
+window.onload = function () {
+  $('.autoplay').slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    pauseOnHover: false,
+  });
+};
 
 app.run(function ($rootScope, $http) {
   $http.get("../data.json")
