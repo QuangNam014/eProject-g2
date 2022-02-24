@@ -2,22 +2,22 @@ Batch no.: T1.2110.E1
 
 CENTER NAME: ACE-HCMC-2-FPT
 
-Project title: SMILES 32
+Project title: 32 SMILES  
 
-========> Group 4 <=========
+========> Group 2 <=========
 
-3 collaborators:
+4 collaborators:
 
-         Truong Tri Trung (nguyenminhbrian95@gmail.com) Student1345167
+         Truong Tri Trung (trungtt157@gmail.com) Student1345167
 
-         Tu Quang Nam (phamgiahung02@gmail.com) Student1345493
+         Tu Quang Nam (tuquangnam1911@gmail.com) Student1345493
          
-         Le Anh Xuan (vietthukt@gmail.com ) Student1345173
+         Le Anh Xuan (leanhxuan051996@gmail.com ) Student1345173
          
-         Nguyen Ngoc Bich Van (vietthukt@gmail.com ) Student1345348
+         Nguyen Ngoc Bich Van (bichvan.nguyen0406@gmail.com ) Student1345348
 ============================
 
-github report link: 
+github report link: ?
 
 ============================
 
