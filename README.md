@@ -17,7 +17,7 @@ Project title: 32 SMILES
          Nguyen Ngoc Bich Van (bichvan.nguyen0406@gmail.com ) Student1345348
 ============================
 
-github report link: ?
+github report link: https://github.com/QuangNam014/eProject-g2/tree/master/document
 
 ============================
 
