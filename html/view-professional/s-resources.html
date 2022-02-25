@@ -1,1 +1,21 @@
-<div>dddddddd</div>
+<div class="stu__res-header">
+    <div class="col-6 stu__res-header-img">
+        <img class="stu__res-header-img-item" src="../../images/s-resource1.jpg" alt="">
+    </div>
+    <div class="col-6 stu__res-header-content">
+        <h3>Whether you are looking for school-life balance, information about finances or advice on preparing for the
+            national board exams, ASDA has resources to help you. </h3>
+        <p>The association provides its members with services, information, education, representation and advocacy.
+            That’s what you’ll find here and throughout the website. Take advantage of these resources to help smooth
+            the journey through dental school. </p>
+    </div>
+</div>
+
+<div class="stu__res-body" ng-controller="studentCTR">
+    <div class="stu__res-body-list" ng-repeat="student in students">
+        <div class="stu__res-body-item">
+            <h4><a href="{{student.url}}">{{student.title}}</a></h4>
+            <p>{{student.description}}</p>
+        </div>
+    </div>
+</div>

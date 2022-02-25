@@ -57,11 +57,13 @@ app.run(function ($rootScope, $http) {
     .then(function (response) {
       $rootScope.products = response.data.product
       $rootScope.displayItems = response.data.research
+      $rootScope.students = response.data.stuRescources
     });
 
 })
 
 app.controller("listCTR", function ($scope) { })
+app.controller("studentCTR", function ($scope) { })
 
 
 // link img home page
@@ -73,7 +75,7 @@ function onGoToPage(namePage) {
 }
 
 
-// modal
+// modal - login
 var auth = document.getElementsByClassName("form_style");
 var modal = document.getElementsByClassName("modal");
 var loginForm = document.getElementsByClassName("login_form");

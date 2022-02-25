@@ -122,5 +122,52 @@
             "description": "For many decades, orthodontists have used two-dimensional radiographic imaging and cephalometry to assess the relationships of the maxillofacial skeleton and the dentition in their patients, including evaluation of growth and development, diagnosis, treatment planning, and assessment of treatment progress and outcomes. However, the limitations of lateral radiography...",
             "image": "../images/research12.jpg"
         }
+    ],
+    "stuRescources": [
+        {
+            "title": "Career Compass",
+            "description": "Career Compass serves as the source of career guidance for students graduating from dental school, and provides tools and resources to transition to the first step in your professional career.",
+            "url": "https://www.asdanet.org/utility-navigation/career-compass-home"
+        },
+        {
+            "title": "Obtaining Dental Licensure",
+            "description": "Licensure is the process whereby a state grants dentists the legal authority to practice dentistry. Each state sets its own licensure requirements. ",
+            "url": "https://www.asdanet.org/index/dental-student-resources/dental-licensure"
+        },
+        {
+            "title": "Diversity and Inclusion",
+            "description": "ASDA offers resources for members who wish to learn more about and promote diversity and inclusion in both dental school and organized dentistry." ,
+            "url": "https://www.asdanet.org/index/dental-student-resources/diversity-and-inclusion-resources"
+        },
+        {
+            "title": "Scholarships and Repayment Options",
+            "description": "There are various scholarship and repayment programs to help dental students defray the rising cost of dental school. ",
+            "url": "https://www.asdanet.org/index/dental-student-resources/scholarships-and-repayment-plans/scholarships"
+        },
+        {
+            "title": "Ethics",
+            "description": "Ethics are the foundation upon which the profession of dentistry is based, and dental students must adhere to the highest ethical standards in education and practice. ",
+            "url": "https://www.asdanet.org/index/dental-student-resources/Ethics"
+        },
+        {
+            "title": "The ASDA Community",
+            "description": "The community is an online forum for ASDA predoctoral members to connect, find solutions and learn alongside fellow members from across the country. ",
+            "url": "https://www.asdanet.org/index/dental-student-resources/the-asda-community"
+        },
+        {
+            "title": "Health and Wellness",
+            "description": "Dental school can be incredibly stressful. ASDA wants to ensure that all of our members have access to invaluable resources and an understanding of what to do when you’re not doing well. ",
+            "url": "https://www.asdanet.org/index/dental-student-resources/health-and-wellness"
+        },
+        {
+            "title": "Tips for International Dental Students",
+            "description": "Applying to dental school as an internationally trained dentist can be a complex and difficult task. ASDA has compiled a range of resources to help you manage the transition. ",
+            "url": "https://www.asdanet.org/index/dental-student-resources/tips-for-international-dental-students"
+        },
+        {
+            "title": "Mentorship",
+            "description": "A mentor can offer stability, expertise and encouragement — and help you find greater success in dental school and your career.",
+            "url": "https://www.asdanet.org/index/dental-student-resources/mentorship-in-dental-school"
+        }
     ]
 }

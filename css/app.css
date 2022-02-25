@@ -59,7 +59,6 @@
 
 .header__navbar-item {
     align-self: center;
-    padding: 5px 10px;
     border-radius: 15px;
 }
 
@@ -74,11 +73,19 @@
 }
 
 .header__navbar-link {
-    padding: 0;
+    padding: 0 15px;
     font-size: 1.8rem;
     color: var(--while-color);
     cursor: pointer;
     text-transform: uppercase;
+    line-height: var(--header-height-navbar);
+    min-width: 70px;
+    text-align: center;
+}
+
+.header__navbar-link-img {
+    padding: 0 15px;
+    cursor: pointer;
 }
 
 .header__navbar-img {
