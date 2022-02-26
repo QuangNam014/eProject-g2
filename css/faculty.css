@@ -1,0 +1,85 @@
+.faculty {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faculty__img {
+    margin: 0 5px;
+}
+
+.faculty__img img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.faculty__heading {
+    font-size: 2rem;
+}
+
+.faculty__content-text {
+    font-size: 1.7rem;
+    text-align: justify;
+}
+
+.faculty__content {
+    background-color: rgb(217 208 208 / 50%);
+    border-radius: 12px;
+    padding: 15px 20px;
+}
+
+.faculty + .faculty {
+    margin-top: 25px;
+}
+
+.faculty__content-btn {
+    text-align: right;
+}
+
+.faculty__group {
+    margin-top: 40px;
+}
+
+.faculty__group .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: calc(100% / 3.2);
+    border-radius: 12px;
+}
+  
+.faculty__group .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.faculty__group .img-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+   
+}
+
+.faculty__group .img-cards img {
+    width: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.faculty__group .img-cards .container {
+    padding: 10px 16px 6px;
+}
+  
+.faculty__group .img-cards .container h4 {
+    font-size: 1.6rem;
+    font-weight: 650;
+}
+
+.faculty__group .img-cards .container p {
+    font-size: 1.4rem;
+}
+
+.faculty__group-content-text {
+    background-color: rgb(237 232 232 / 40%);
+    margin-top: 25px;
+    border-radius: 12px;
+    font-size: 1.7rem;
+    padding: 10px 16px 30px;
+}
