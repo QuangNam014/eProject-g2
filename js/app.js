@@ -71,7 +71,11 @@ function onGoToPage(namePage) {
   if (namePage === "") {
     window.location = "https://quangnam014.github.io/eProject-g2/html/index.html" + namePage;
   }
+<<<<<<< Updated upstream
   window.location = "https://quangnam014.github.io/eProject-g2/html/index.html" + namePage;
+=======
+  window.location = "https://quangnam014.github.io/eProject-g2/html/index.html#!" + namePage;
+>>>>>>> Stashed changes
 }
 
 
