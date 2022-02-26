@@ -69,9 +69,9 @@ app.controller("studentCTR", function ($scope) { })
 // link img home page
 function onGoToPage(namePage) {
   if (namePage === "") {
-    window.location = "https://quangnam014.github.io/eProject-g2" + namePage;
+    window.location = "https://quangnam014.github.io/eProject-g2/html/index.html" + namePage;
   }
-  window.location = "https://quangnam014.github.io/eProject-g2" + namePage;
+  window.location = "https://quangnam014.github.io/eProject-g2/html/index.html" + namePage;
 }
 
 
