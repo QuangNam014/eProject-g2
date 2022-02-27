@@ -9,6 +9,8 @@ app.config(function ($routeProvider) {
     .when("/research", { templateUrl: "research.html" })
     .when("/clinic", { templateUrl: "dental_clinic.html" })
     .when("/faq", { templateUrl: "faq.html" })
+    .when("/products", { templateUrl: "products.html" })
+
 })
 
 
@@ -58,6 +60,7 @@ app.run(function ($rootScope, $http) {
       $rootScope.products = response.data.product
       $rootScope.displayItems = response.data.research
       $rootScope.students = response.data.stuRescources
+      $rootScope.productItems = response.data.productItems
     });
 
 })
@@ -250,7 +253,7 @@ app.controller("professional", ["$scope", function ($scope) {
 
 
 // anh trung
-app.controller("faq",function(){
+app.controller("faq", function () {
   var acc = document.getElementsByClassName("accordion");
   var i;
 
@@ -273,3 +276,63 @@ app.controller("clinic", [
     $scope.viewClinic = "default";
   },
 ]);
+
+
+// vân
+
+app.controller("productControl", function ($scope, $rootScope) {
+  $scope.addCart = function (id) {
+    var item = $rootScope.productItems[id];
+
+    for (var i = 0; i < $rootScope.cart.length; ++i) {
+      if ($rootScope.cart[i].id == id) {
+        $rootScope.cart[i].qty++;
+        $rootScope.total += $rootScope.cart[i].price
+        return;
+      }
+    }
+
+
+    var newEle = {
+      "id": id,
+      "name": item.name,
+      "price": item.price,
+      "qty": 1
+    }
+    $rootScope.total += item.price
+    $rootScope.cart.push(newEle);
+    
+  }
+
+
+  $scope.choose = function (event, type) {
+    if (type === "all") {
+      $scope.productItems = $rootScope.productItems;
+    }
+    else {
+      $scope.productItems = $rootScope.productItems.filter(item => item.type == type);
+    }
+    $("#nametype").html($("#" + event.target.id).html());
+  }
+
+
+  $scope.show = function (id) {
+    
+
+    let data = $rootScope.productItems;
+    let product = data.find(v => v.id == id);
+
+    $scope.name = product.name;
+    $scope.price = product.price;
+    $scope.description = product.description;
+    $scope.image = product.image;
+
+   
+    $("#myABC").modal('show');
+
+  }
+  $scope.closeBox = function (id) {
+    $("#myABC").modal('hide');
+  }
+
+});

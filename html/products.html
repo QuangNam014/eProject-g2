@@ -1,0 +1,79 @@
+<div id="products">
+    <ul id="topicsList" class="ClrFix">
+        <li><a class="nav-link header__navbar-link-img" onclick="onGoToPage('')">HOME</a></li>
+        <li>&gt; Products</li>
+      </ul>
+  <h1 id="nametype">All Products</h1>
+  <style>
+    .item {
+    border: #ccc thin solid;
+    padding: 15px;
+    height: 350px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+    .filter input{
+    background: #E5EAF8;
+    color: #00256E ;
+    }
+    </style>
+
+    <div class="container" ng-controller="productControl">
+    <div class="filter">
+        <ul class="submenu"> 
+            <li type="button" id="ck" ng-click="choose($event,'all')">All Products</li>
+            <li type="button" id="ckToothpaste" ng-click="choose($event,'F1')">Toothpaste</li>
+            <li type="button" id="ckToothbrush" ng-click="choose($event,'F2')">Toothbrush</li>
+            <li type="button" id="ckDental" ng-click="choose($event,'F3')">Dental floss</li>
+            <li type="button" id="ckWater" ng-click="choose($event,'F0')">Water toothpick</li>
+        </ul>
+    </div>
+
+    <div class="row">
+        <div ng-repeat="item in productItems" class="col-sm-12 col-md-3 item">
+
+            <img src="../images/products/{{item.image}}"> <br>
+            {{item.price|currency}}
+            <br>
+            <input type="button" value="See more" ng-click=show(item.id) class="btn btn-success"> <br><br>
+            {{item.name|uppercase}} <br>
+            {{item.description}} <br><br>
+
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="myABC" role="dialog">
+        <div class="modal-dialog" role="document">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="imgs-zoom-area"><img id="zoom_03" src="../images/products/{{image}}"
+                                    style="width: 100%;" alt=""></div>
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="text-black-1">Product Name: {{name}} </h3>
+
+                            <h6 class="brand-name-2">Product Price : {{price}}</h6>
+                           
+                            <div role="tabpanel" class="tab-pane active" id="description">
+                                <p>{{description}}.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" ng-click=closeBox() class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+</div>

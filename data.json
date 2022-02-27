@@ -169,5 +169,95 @@
             "description": "A mentor can offer stability, expertise and encouragement — and help you find greater success in dental school and your career.",
             "url": "https://www.asdanet.org/index/dental-student-resources/mentorship-in-dental-school"
         }
+    ],
+    "productItems": [ 
+        {
+            "id": 1,
+            "name": "Colgate",
+            "price": 4.5,
+            "description": "Colgate toothpaste Fresh Cofidence Mint 193g",
+            "image": "../products/p01.jpg",
+            "type":"F1"
+        },
+        {
+            "id": 2,
+            "name": "Colgate",
+            "price": 6,
+            "description": "Colgate Fresh Confidence Bamboo Charcoal Toothpaste 192 g",
+            "image": "../products/p02.jpg",
+            "type":"F1"
+        },
+        {
+            "id": 3,
+            "name": "Colgate",
+            "price": 5.3,
+            "description": "Colgate Fresh Confidence Spicy Fresh 126g",
+            "image": "../products/p03.jpg",
+            "type":"F1"
+        },
+        {
+            "id": 4,
+            "name": "PS",
+            "price": 5,
+            "description": "PS toothpaste for kid",
+            "image": "../products/p04.jpg",
+            "type":"F1"
+        },
+        {
+            "id": 5,
+            "name": "Sonic",
+            "price": 10.3,
+            "description": "Sonic Rechargeable Electric Toothbrush for Kids and Adults",
+            "image": "../products/p05.jpg",
+            "type":"F2"
+        },
+        {
+            "id": 6,
+            "name": "Vivitar",
+            "price": 7.4,
+            "description": "Electric Rechargeable Toothbrush 2 Heads",
+            "image": "../products/p06.jpg",
+            "type":"F2"
+        },
+        {
+            "id": 7,
+            "name": "Aquawhite",
+            "price": 5.0,
+            "description": "Aquawhite Junior Smiley Toothbrush",
+            "image": "../products/p07.jpg",
+            "type":"F2"
+        },
+        {
+            "id": 8,
+            "name": "Oral-B",
+            "price": 6.0,
+            "description": "Oral-B Essential Mint Floss 50m",
+            "image": "../products/p08.jpg",
+            "type":"F3"
+        },
+        {
+            "id": 9,
+            "name": "Johnson&Johnson",
+            "price": 4.8,
+            "description": "Johnson&Johnson Mint waxed Essential Mint Floss 65m",
+            "image": "../products/p09.jpg",
+            "type":"F3"
+        },
+        {
+            "id": 10,
+            "name": "Waterpik",
+            "price": 15.8,
+            "description": "White Cordless Plus Water Flosser",
+            "image": "../products/p10.jpg",
+            "type":"F0"
+        },
+        {
+            "id": 11,
+            "name": "Panasonic water toothpick",
+            "price": 18.4,
+            "description": "Panasonic Cordless Ultrasonic Oral Irrigator EW1511",
+            "image": "../products/p11.jpg",
+            "type":"F0"
+        }
     ]
 }
