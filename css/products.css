@@ -78,6 +78,7 @@ ul#topicsList li {
 }
 #products .item img {
     width: 75%;
+    height: 142px;
 }
 #products .active {
     width: 100%;
